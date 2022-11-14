@@ -116,5 +116,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           file: ${{ matrix.artifact_name }}
-          tags: true
+          tags: false
           draft: true

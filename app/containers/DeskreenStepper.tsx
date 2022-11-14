@@ -79,7 +79,7 @@ const DeskreenStepper = React.forwardRef((_props, ref) => {
   const [
     isStandForUkraineDialogOpen,
     setIsStandForUkraineDialogOpen,
-  ] = useState(true);
+  ] = useState(false);
   const [isDisplayHelloWord, setIsDisplayHelloWord] = useState(true);
   const [helloWord, setHelloWord] = useState('Hello');
 
